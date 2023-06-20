@@ -1,0 +1,94 @@
+*{
+    background-color: rgb(209, 255, 238);     
+}
+.tabledata{
+  border: 2px solid black;
+}
+.form1{
+  background-color:  rgb(209, 255, 238);  
+}
+table{
+  overflow: scroll;
+  background-color: #72b377;
+  max-width: 1200px;
+  font-size: 20px;
+  text-align: center;
+}
+table,th,td{
+  background-color:#3e6941;
+  border: 3px solid rgb(255, 255, 255);
+  color: aliceblue;
+  border-collapse: collapse;
+
+}
+.dataform{
+    margin-top: 20px;
+    height:600px;
+    width: 530px;
+    margin-left: 600px;
+}
+.form-input{
+  width:90%;
+  height:40px;
+  color: black;
+  text-align:start;
+  padding-top: 10px;
+  margin-top:3px;
+  border-radius: 3px;
+ background-color: rgb(165, 162, 162);
+}
+#selectst{
+  background-color: rgb(227, 245, 238); 
+  width:310px;
+  margin-top: -5px;
+  height: 90%;
+  margin-right: 10px;
+  float: right;
+}
+.form-input input{
+  width:300px;
+  margin-top: -5px;
+  height: 80%;
+  margin-right: 10px;
+  float: right;
+}
+#button-one{
+  cursor: pointer;
+  margin-left: 200px;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgb(17, 153, 17);
+  color: white;
+}
+#button-one:hover{
+  background-color: rgb(129, 247, 129);
+  color: rgb(0, 0, 0);
+}
+.cont{
+  margin-left: 350px;
+  max-width: 1200px;
+  max-height: 500px;
+  overflow: scroll;
+}
+.statecont{
+  display: flex;
+  flex-wrap: wrap;
+}
+.stateelements{
+  height: 50px;
+  width: 200px;
+}
+#find-button{
+  margin-left: 800px;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #56ad5e;
+  color: white;
+  cursor: pointer;
+}
+#find-button:hover{
+  background-color: #79f183;
+  color: black;
+}
